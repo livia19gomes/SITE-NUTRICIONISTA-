@@ -1,0 +1,194 @@
+.logo {
+    width: 150px;
+}
+
+:root {
+    --cabeçalho: #ffffff;
+    --titulo: #02321a;
+    --subtitulo: #02321a;
+    --cinza: #fafafa;
+    --verde: #89cc86;
+    --verde1: #154734;
+    --branco: white;
+    --preto: black;
+    --botao1:  #006734;
+    --botao2: #8fbf13;
+    --rodape:  #02321a;
+}
+
+header {
+    background-color: var(--cabeçalho);
+    display: flex;
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home {
+    color: var(--titulo);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.blog {
+    color: var(--titulo);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.contato {
+    color: var(--titulo);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.calculadora {
+    color: var(--titulo);
+    font-weight: bold;
+    font-size: larger;
+}
+
+* {
+    /* Tirando formatação automática HTML */
+    margin: 0;
+    padding: 0;
+    text-decoration: none ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    /* Criando variáveis */
+    --titulo: #02321a ;
+    --verdemeio: #014d27;
+    --letra: #ffffff;
+    --fundo: #fafafa;
+    --verdinho: #89cc86;
+    --preto: black;
+    --altura: 100px;
+}
+
+.secao1 div {
+    /* Eixo X */
+    display: flex;
+    gap: 10px;   
+    justify-content: center;
+    /* Eixo Y */
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+}
+
+.t1 {
+    text-align:center;
+    color: var(--titulo);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+p {
+    font-size: 110%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.img1:hover {
+    width: 270px;
+}
+
+.img1 {
+    border-radius: 15px;
+}
+
+.img2:hover {
+    width: 270px;
+}
+
+.img2 {
+    border-radius: 15px;
+}
+
+.img3:hover {
+    width: 270px;
+}
+
+.img3 {
+    border-radius: 15px;
+}
+
+.container {
+    background-color: var(--verdinho);
+}
+
+.t2 {
+    text-align: center;
+}
+
+
+li {
+    font-size: 110%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.dica {
+    color:  var(--verdemeio);
+    font-size: 130%;
+}
+
+.estouaqui {
+    color:  var(--verdemeio);
+    font-size: 130%;
+    text-align: center;
+    font-weight: bold;
+}
+
+span {
+    color: var(--verdinho)
+}
+
+.agendamento {
+    background-color: var(--verdinho);
+    color: var(--verdemeio);
+    border-radius: 19px;
+    padding: 20px;
+}
+
+.slogan {
+    color: var(--verdemeio);
+    padding-left: 20%;
+    padding-right: 20%;
+    font-style: italic;
+}
+
+button:hover {
+    color: var(--letra);
+    background-color: var(--verdemeio)
+}
+
+.nutri {
+    border-radius: 19px; 
+}
+
+.pedido {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+footer{
+    background-color: var(--rodape);
+}
+
+.p3 {
+    font-family: Serif;
+    text-align: center;
+    color: var(--branco);
+    font-size: larger;
+    padding: 30px;
+}

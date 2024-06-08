@@ -1,0 +1,77 @@
+* {
+    /* Tirando formatação automática HTML */
+    margin: 0;
+    padding: 0;
+    text-decoration: none ;
+}
+
+:root {
+    /* Criando variáveis */
+    --titulo: #02321a ;
+    --letra: #ffffff;
+    --fundo: #fafafa;
+    --verdinho: #89cc86;
+    --preto: black;
+    --altura: 100px;
+}
+
+.secao1 div {
+    /* Eixo X */
+    display: flex;
+    gap: 10px;   
+    justify-content: center;
+    /* Eixo Y */
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+}
+
+.t1 {
+    text-align:center;
+    color: var(--titulo);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secao1 span {
+    color: var(--verdinho);
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 110%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.img1:hover {
+    width: 270px;
+}
+
+.img1 {
+    border-radius: 15px;
+}
+
+.img2:hover {
+    width: 270px;
+}
+
+.img2 {
+    border-radius: 15px;
+}
+
+.img3:hover {
+    width: 270px;
+}
+
+.img3 {
+    border-radius: 15px;
+}
+
+.container {
+    background-color: var(--verdinho);
+}
+
+.secao2 span {
+    color: var(--verdinho);
+}

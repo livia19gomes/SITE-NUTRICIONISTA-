@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* cabeçalho */
+.logo {
+    width: 150px;
+}
+
+:root {
+    --cabeçalho: #ffffff;
+    --titulo: #02321a;
+    --subtitulo: #02321a;
+    --cinza: #fafafa;
+    --verde: #89cc86;
+    --verde1: #154734;
+    --branco: white;
+    --preto: black;
+    --botao1:  #006734;
+    --botao2: #8fbf13;
+    --rodape:  #02321a;
+}
+
+header {
+    background-color: var(--cabeçalho);
+    display: flex;
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home {
+    color: var(--titulo);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.blog {
+    color: var(--titulo);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.contato {
+    color: var(--titulo);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.calculadora {
+    color: var(--titulo);
+    font-weight: bold;
+    font-size: larger;
+}
+
+* {
+    /* Tirando formatação automática HTML */
+    margin: 0;
+    padding: 0;
+    text-decoration: none ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    /* Criando variáveis */
+    --titulo: #02321a ;
+    --verdemeio: #014d27;
+    --letra: #ffffff;
+    --fundo: #fafafa;
+    --verdinho: #89cc86;
+    --preto: black;
+    --altura: 100px;
+}
+
+p {
+    font-size: 110%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+li {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 110%;
+}
+
+h2 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h3 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.t {
+    text-align: center;
+    color: var(--titulo);
+}
+
+span {
+    font-weight: bold;
+    color: var(--verdinho)
+}
+
+.italico {
+    font-style: italic;
+}
+
+button:hover {
+    color: var(--letra);
+    background-color: var(--verdemeio)
+}
+.agendamento {
+    background-color: var(--verdinho);
+    color: var(--verdemeio);
+    border-radius: 19px;
+    padding: 20px;
+}
+
+footer{
+    background-color: var(--rodape);
+}
+
+.p3 {
+    font-family: Serif;
+    text-align: center;
+    color: var(--branco);
+    font-size: larger;
+    padding: 30px;
+}

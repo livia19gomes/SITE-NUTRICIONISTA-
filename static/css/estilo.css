@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* cabeçalho */
+.logo {
+    width: 150px;
+}
+
+:root {
+    --cabeçalho: #ffffff;
+    --titulo: #02321a;
+    --subtitulo: #02321a;
+    --cinza: #fafafa;
+    --verde: #89cc86;
+    --verde1: #154734;
+    --branco: white;
+    --preto: black;
+    --botao1:  #006734;
+    --botao2: #8fbf13;
+    --rodape:  #02321a;
+}
+
+header {
+    background-color: var(--cabeçalho);
+    display: flex;
+    gap: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home {
+    color: var(--titulo);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.blog {
+    color: var(--titulo);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.contato {
+    color: var(--titulo);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.calculadora {
+    color: var(--titulo);
+    font-weight: bold;
+    font-size: larger;
+}
+/* end >> cabeçalho */
+
+.img1 {
+    width: 100%;
+}
+
+body {
+    background-color: var(--cinza);
+}
+
+h1 {
+    color: var(--titulo);
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p1 {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 23px;
+}
+
+form div {
+    width: 47.5%;
+}
+
+form div input {
+    padding: 10px;
+    width: 100%;
+}
+
+.bt5 {
+    background-color: var(--botao1);
+    color: var(--branco);
+    border-radius: 8px;
+    border: none;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.bt5:hover {
+    background-color: var(--botao2);
+}
+
+.mensagem {
+    text-align: center;
+    width: 100%;
+}
+
+.label4 {
+    text-align: center;
+    display: block;
+}
+
+.bt5 {
+    display: block;
+    margin:  0 auto;
+}
+
+.sectionII {
+    background-color: var(--verde1);
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--branco);
+    padding: 30px;
+}
+
+.p2 {
+    color: var(--branco);
+    padding-left: 30px;
+    font-size: larger;
+}
+
+.img2 {
+    width: 200px;
+    padding-left: 20px;
+}
+
+.siga {
+    justify-self: flex-end;
+    padding-right: 30px;
+}
+
+.sig {
+    text-align: end;
+}
+
+.face {
+    width: 60px;
+}
+
+.twitter {
+    width: 60px;
+}
+
+.linkedin {
+    width: 60px;
+}
+
+.insta {
+    width: 60px;
+}
+
+.you {
+    width: 60px;
+}
+
+.img3 {
+    width: 300px;
+}
+
+footer{
+    background-color: var(--rodape);
+}
+
+.p3 {
+    text-align: center;
+    color: var(--branco);
+    font-size: larger;
+    padding: 30px;
+}
+
+.sectionn {
+    display: flex;
+    justify-content: center;
+}
+
+.comida {
+    width: 316px;
+}
+
+.salada {
+    width: 303px;
+}
+
+.saude {
+    width: 303px;
+}
+
+.cereal {
+    width: 339px;
+}
